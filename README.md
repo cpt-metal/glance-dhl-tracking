@@ -1,6 +1,7 @@
 # DHL Tracking
 A Glance widget for displaying the tracking status of DHL parcels.
 
+Updates will be available in this [repository](https://github.com/cpt-metal/glance-dhl-tracking) first.
 
 ### Preview
 
@@ -8,15 +9,15 @@ A Glance widget for displaying the tracking status of DHL parcels.
 
 ### DHL API Key
 
-- sign up for https://developer.dhl.com/
+- sign up at https://developer.dhl.com/
 - create a new app and include the "Shipment Tracking - Unified" API
-- Note: after creation it may take a few days until api access is granted (you'll receive an email when it's active)
+- Note: after creation it may take a few days until API access is granted (you'll receive an email when it's active)
 
 ### Setup
 
-- set the shipments tracking number in the options field
+- set the shipment tracking number in the options field
 - add your DHL API key to the `.env` file `DHL_API_KEY=xxx`
-- you can change the [language key](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) in the option, which affects the language of the descriptions in the response
+- you can change the [language key](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) in the options, which affects the language of the descriptions in the response
 - adjust the cache timer to your liking (API rate limit is 250 per day)
 
 ### Other
